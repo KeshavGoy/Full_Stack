@@ -1,0 +1,534 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Main-Content {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about {
+    width: 30%;
+    line-height: 25px;
+}
+
+.sec-1 ul {
+    list-style: none;
+}
+
+.sec-1 ul li {
+    padding: 5px 0px;
+}
+
+.sec-1 ul li a:hover {
+    color: orange;
+}
+
+.Link-1 {
+    width: 10%;
+}
+
+.Link-2 {
+    width: 10%;
+}
+
+.Link-3 {
+    width: 10%;
+}
+
+.about h2 {
+    margin-bottom: 25px;
+}
+
+.Link-1 h2 {
+    margin-bottom: 25px;
+}
+
+.Link-2 h2 {
+    margin-bottom: 25px;
+}
+
+.Link-3 h2 {
+    margin-bottom: 25px;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec-2 h2 {
+    font-weight: lighter;
+    margin-right: 30px;
+}
+
+.sec-2 a {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: red;
+}
+
+.sec-2 a:hover {
+    background-color: orange;
+}
+
+.sec-3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.sec-3 ul li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: rgb(77, 73, 73);
+}
+
+.sec-3 ul li i {
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sec-3 ul li:nth-child(1):hover {
+    background-color: #1877f2;
+}
+
+.sec-3 ul li:nth-child(2):hover {
+    background-color: #1da1f2;
+}
+
+.sec-3 ul li:nth-child(3):hover {
+    background-color: #b92b27;
+}
+
+.sec-3 ul li:nth-child(4):hover {
+    background-color: #0a66c2;
+}
+
+.sec-3 ul li:nth-child(5):hover {
+    background-color: #ea4c89;
+}
+
+.sec-4 {
+    padding: 30px;
+    text-align: center;
+}
+
+.sec-4 a:hover {
+    color: orange;
+}
+
+.sec-4 p {
+    position: relative;
+}
+
+.sec-4 p::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: yellow;
+    transition: all 0.3s;
+}
+
+.sec-4 p:hover::after {
+    width: 100%;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+@media (max-width: 787px) {
+    .Main-Content {
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer {
+        width: 100%;
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
+
+    .sec-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .about {
+        width: 100%;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    .sec-1 ul {
+        list-style: none;
+    }
+
+    .sec-1 ul li {
+        padding: 5px 0px;
+    }
+
+    .sec-1 ul li a:hover {
+        color: orange;
+    }
+
+    .Link-1 {
+        width: 10%;
+    }
+
+    .Link-2 {
+        width: 10%;
+    }
+
+    .Link-3 {
+        width: 10%;
+    }
+
+    .about h2 {
+        margin-bottom: 25px;
+    }
+
+    .Link-1 h2 {
+        margin-bottom: 25px;
+    }
+
+    .Link-2 h2 {
+        margin-bottom: 25px;
+    }
+
+    .Link-3 h2 {
+        margin-bottom: 25px;
+    }
+
+    .sec-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .sec-2 h2 {
+        font-weight: lighter;
+        margin-right: 30px;
+    }
+
+    .sec-2 a {
+        display: inline-block;
+        padding: 20px 40px;
+        border-radius: 40px;
+        text-align: center;
+        background-color: red;
+    }
+
+    .sec-2 a:hover {
+        background-color: orange;
+    }
+
+    .sec-3 ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .sec-3 ul li {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-right: 20px;
+        background-color: rgb(77, 73, 73);
+    }
+
+    .sec-3 ul li i {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .sec-3 ul li:nth-child(1):hover {
+        background-color: #1877f2;
+    }
+
+    .sec-3 ul li:nth-child(2):hover {
+        background-color: #1da1f2;
+    }
+
+    .sec-3 ul li:nth-child(3):hover {
+        background-color: #b92b27;
+    }
+
+    .sec-3 ul li:nth-child(4):hover {
+        background-color: #0a66c2;
+    }
+
+    .sec-3 ul li:nth-child(5):hover {
+        background-color: #ea4c89;
+    }
+
+    .sec-4 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .sec-4 a:hover {
+        color: orange;
+    }
+
+    .sec-4 p {
+        position: relative;
+    }
+
+    .sec-4 p::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        background-color: yellow;
+        transition: all 0.3s;
+    }
+
+    .sec-4 p:hover::after {
+        width: 100%;
+    }
+
+    hr {
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 499px) {
+    .Main-Content {
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer {
+        width: 100%;
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
+
+    .sec-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .about {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .sec-1 ul {
+        list-style: none;
+    }
+
+    .sec-1 ul li {
+        padding: 5px 0px;
+    }
+
+    .sec-1 ul li a:hover {
+        color: orange;
+    }
+
+    .Link-1 {
+        width: 100%;
+    }
+
+    .Link-2 {
+        width: 100%;
+    }
+
+    .Link-3 {
+        width: 100%;
+    }
+
+    .about h2 {
+        margin-bottom: 25px;
+    }
+
+    .Link-1 h2 {
+        margin-bottom: 20px;
+    }
+
+    .Link-2 h2 {
+        margin: 20px 0;
+    }
+
+    .Link-3 h2 {
+        margin: 20px 0;
+    }
+
+    .sec-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .sec-2 h2 {
+        font-weight: lighter;
+        margin-right: 30px;
+    }
+
+    .sec-2 a {
+        display: inline-block;
+        padding: 20px 40px;
+        border-radius: 40px;
+        text-align: center;
+        background-color: red;
+    }
+
+    .sec-2 a:hover {
+        background-color: orange;
+    }
+
+    .sec-3 ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .sec-3 ul li {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-right: 20px;
+        background-color: rgb(77, 73, 73);
+    }
+
+    .sec-3 ul li i {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .sec-3 ul li:nth-child(1):hover {
+        background-color: #1877f2;
+    }
+
+    .sec-3 ul li:nth-child(2):hover {
+        background-color: #1da1f2;
+    }
+
+    .sec-3 ul li:nth-child(3):hover {
+        background-color: #b92b27;
+    }
+
+    .sec-3 ul li:nth-child(4):hover {
+        background-color: #0a66c2;
+    }
+
+    .sec-3 ul li:nth-child(5):hover {
+        background-color: #ea4c89;
+    }
+
+    .sec-4 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .sec-4 a:hover {
+        color: orange;
+    }
+
+    .sec-4 p {
+        position: relative;
+    }
+
+    .sec-4 p::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        background-color: yellow;
+        transition: all 0.3s;
+    }
+
+    .sec-4 p:hover::after {
+        width: 100%;
+    }
+
+    hr {
+        opacity: 0.2;
+    }
+}
